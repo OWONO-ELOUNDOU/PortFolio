@@ -1,0 +1,32 @@
+.header-container {
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navlinks {
+        list-style: none;
+        display: inline-flex;
+        gap: 15px;
+        padding: 5px;
+        border-radius: 35px;
+        border: 1px solid #efefef;
+
+        li {
+            width: 90px;
+            padding: 10px 0;
+            font-size: 13px;
+            font-weight: 400;
+            text-align: center;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background 0.5s ease-in;
+            
+            &:hover {
+                background-color: #efefef;
+            }
+        }
+    }
+}
